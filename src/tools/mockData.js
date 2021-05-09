@@ -1,0 +1,237 @@
+const movies = [
+  {
+    id: 1,
+    title: "Toy Story",
+    year: 1995,
+    logoUrl: "../../public/assets/toystory.png",
+  },
+  {
+    id: 2,
+    title: "The Empire Strikes Back",
+    year: 1980,
+    logoUrl: "../../public/assets/lebowski.png",
+  },
+  {
+    id: 3,
+    title: "Nightmare Before Christmas",
+    year: 1993,
+    logoUrl: "../../public/assets/nightmare.png",
+  },
+  {
+    id: 4,
+    title: "Back To The Future",
+    year: 1985,
+    logoUrl: "../../public/assets/backtothefuture.png",
+  },
+  {
+    id: 5,
+    title: "Lord Of The Rings",
+    year: 2014,
+    logoUrl: "../../public/assets/lordofrings.png",
+  },
+  {
+    id: 6,
+    title: "Clerks",
+    year: 2021,
+    logoUrl: "../../public/assets/clerks.png",
+  },
+  {
+    id: 7,
+    title: "The Big Lebowski",
+    year: 2021,
+    logoUrl: "../../public/assets/lebowski.png",
+  },
+  {
+    id: 8,
+    title: "The Star Wars",
+    year: 2001,
+    logoUrl: "../../public/assets/starwars.png",
+  },
+  {
+    id: 9,
+    title: "Akira",
+    year: 2021,
+    logoUrl: "../../public/assets/akira.png",
+  },
+  {
+    id: 10,
+    title: "Skyscraper",
+    year: 2019,
+    logoUrl: "../../public/assets/nightmare.png",
+  },
+  {
+    id: 11,
+    title: "Lord Of The Rings",
+    year: 2014,
+    logoUrl: "../../public/assets/lordofrings.png",
+  },
+  {
+    id: 12,
+    title: "Clerks",
+    year: 2021,
+    logoUrl: "../../public/assets/clerks.png",
+  },
+  {
+    id: 13,
+    title: "The Big Lebowski",
+    year: 2021,
+    logoUrl: "../../public/assets/lebowski.png",
+  },
+  {
+    id: 14,
+    title: "The Star Wars",
+    year: 2001,
+    logoUrl: "../../public/assets/starwars.png",
+  },
+  {
+    id: 15,
+    title: "Toy Story",
+    year: 1995,
+    logoUrl: "../../public/assets/toystory.png",
+  },
+  {
+    id: 16,
+    title: "The Empire Strikes Back",
+    year: 1980,
+    logoUrl: "../../public/assets/lebowski.png",
+  },
+  {
+    id: 17,
+    title: "Nightmare Before Christmas",
+    year: 1993,
+    logoUrl: "../../public/assets/nightmare.png",
+  },
+  {
+    id: 18,
+    title: "Back To The Future",
+    year: 1985,
+    logoUrl: "../../public/assets/backtothefuture.png",
+  },
+  {
+    id: 19,
+    title: "Akira",
+    year: 2021,
+    logoUrl: "../../public/assets/akira.png",
+  },
+  {
+    id: 20,
+    title: "Skyscraper",
+    year: 2019,
+    logoUrl: "../../public/assets/nightmare.png",
+  },
+  {
+    id: 21,
+    title: "Toy Story",
+    year: 1995,
+    logoUrl: "../../public/assets/toystory.png",
+  },
+  {
+    id: 22,
+    title: "The Empire Strikes Back",
+    year: 1980,
+    logoUrl: "../../public/assets/lebowski.png",
+  },
+  {
+    id: 23,
+    title: "Lord Of The Rings",
+    year: 2014,
+    logoUrl: "../../public/assets/lordofrings.png",
+  },
+  {
+    id: 24,
+    title: "Clerks",
+    year: 2021,
+    logoUrl: "../../public/assets/clerks.png",
+  },
+  {
+    id: 25,
+    title: "Nightmare Before Christmas",
+    year: 1993,
+    logoUrl: "../../public/assets/nightmare.png",
+  },
+  {
+    id: 26,
+    title: "Back To The Future",
+    year: 1985,
+    logoUrl: "../../public/assets/backtothefuture.png",
+  },
+  {
+    id: 27,
+    title: "The Big Lebowski",
+    year: 2021,
+    logoUrl: "../../public/assets/lebowski.png",
+  },
+  {
+    id: 28,
+    title: "The Star Wars",
+    year: 2001,
+    logoUrl: "../../public/assets/starwars.png",
+  },
+  {
+    id: 29,
+    title: "Akira",
+    year: 2021,
+    logoUrl: "../../public/assets/akira.png",
+  },
+  {
+    id: 30,
+    title: "Skyscraper",
+    year: 2019,
+    logoUrl: "../../public/assets/nightmare.png",
+  },
+  {
+    id: 31,
+    title: "Toy Story",
+    year: 1995,
+    logoUrl: "../../public/assets/toystory.png",
+  },
+  {
+    id: 32,
+    title: "Clerks",
+    year: 2021,
+    logoUrl: "../../public/assets/clerks.png",
+  },
+  {
+    id: 33,
+    title: "The Big Lebowski",
+    year: 2021,
+    logoUrl: "../../public/assets/lebowski.png",
+  },
+  {
+    id: 34,
+    title: "The Empire Strikes Back",
+    year: 1980,
+    logoUrl: "../../public/assets/lebowski.png",
+  },
+  {
+    id: 35,
+    title: "Nightmare Before Christmas",
+    year: 1993,
+    logoUrl: "../../public/assets/nightmare.png",
+  },
+  {
+    id: 36,
+    title: "Back To The Future",
+    year: 1985,
+    logoUrl: "../../public/assets/backtothefuture.png",
+  },
+  {
+    id: 37,
+    title: "Lord Of The Rings",
+    year: 2014,
+    logoUrl: "../../public/assets/lordofrings.png",
+  },
+];
+
+const newMovie = {
+  id: null,
+  title: "",
+  year: null,
+  logoUrl: "",
+};
+
+// Using CommonJS style export so we can consume via Node (without using Babel-node)
+module.exports = {
+  newMovie,
+  movies,
+};

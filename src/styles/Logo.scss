@@ -1,0 +1,35 @@
+.logo {
+  padding: 0 0 0.16px;
+  display: flex;
+  align-items: flex-start;
+}
+.vector {
+  margin-top: 0.37px;
+  &:not(:last-of-type) {
+    margin-right: 8.26px;
+  }
+}
+.vectorTwo {
+  margin-top: 0.37px;
+  margin-right: 5.27px;
+}
+.vectorThree {
+  margin-top: 0.37px;
+  margin-right: 5.46px;
+}
+.vectorFour {
+  margin-top: 0.37px;
+  margin-right: 30.94px;
+}
+.relativeWrapperThree {
+  margin-right: 4.05px;
+  position: relative;
+}
+.vectorFive {
+  position: absolute;
+  left: -22.5px;
+  bottom: -2.37px;
+}
+.vectorSix {
+  position: relative;
+}

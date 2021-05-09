@@ -1,0 +1,36 @@
+@import "./stylesheet.scss";
+
+.group9 {
+  padding: 0 6.26px 0.39px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.ellipse1 {
+  width: 11px;
+  height: 11px;
+  background-color: $transparent-white;
+  margin-bottom: -2.91px;
+  border-radius: 50%;
+  border: 3px solid $white;
+}
+.relativeWrapperOne {
+  margin-left: 13.65px;
+  position: relative;
+}
+.rectangle12 {
+  width: 4.33px;
+  height: 11.91px;
+  background-color: $white;
+  position: relative;
+  transform: matrix(0.71, -0.82, 0.61, 0.71, 0, 0);
+}
+.rectangle13 {
+  width: 2.16px;
+  height: 6.49px;
+  background-color: $white;
+  position: absolute;
+  left: -0.65px;
+  top: -0.69px;
+  transform: matrix(0.71, -0.82, 0.61, 0.71, 0, 0);
+}

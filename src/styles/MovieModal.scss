@@ -1,0 +1,60 @@
+@import "stylesheet.scss";
+
+.toyStoryModal {
+  background-color: $transparent-white;
+  border-radius: 5px;
+  padding: 10px 10px 40px 42px;
+  display: flex;
+  align-items: flex-start;
+}
+.backToTheFutureMoviePoster1 {
+  margin-top: 29px;
+  margin-right: 37px;
+}
+.flexWrapperOne {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.close {
+  background-color: $black-2;
+  margin-bottom: 2px;
+  margin-left: 535px;
+  border-radius: 50%;
+  padding: 0.15px 9px 8.85px 0;
+  display: flex;
+  align-items: flex-start;
+}
+.toyStory1995 {
+  height: 27px;
+  width: 471px;
+  display: flex;
+  margin-bottom: 39px;
+  color: $white;
+  @include roboto-40-medium;
+}
+.toyStory1995Emphasis1 {
+  color: $white;
+  @include roboto-20-medium;
+}
+.directorJohnLasseterCastTomHanks {
+  height: 87px;
+  width: 553px;
+  display: flex;
+  margin-bottom: 23px;
+  margin-left: 2px;
+  color: $white;
+  @include roboto-18-medium;
+}
+.directorJohnLasseterCastTomHanksEmphasis0 {
+  color: $white;
+  @include roboto-18-regular;
+}
+.woodyAGoodHeartedCowboyDollWhoBe {
+  height: 248px;
+  width: 552px;
+  color: $white;
+  display: flex;
+  margin-left: 3px;
+  @include roboto-16-medium;
+}

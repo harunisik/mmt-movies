@@ -1,0 +1,157 @@
+@import "./stylesheet.scss";
+
+.mainWindow {
+  background-color: $black-2;
+  padding: 60px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.flexWrapperFour {
+  margin-bottom: 38.8px;
+  padding: 0 0 0 20px;
+  display: flex;
+  align-items: flex-start;
+}
+.relativeWrapperFour {
+  margin-top: 1px;
+  margin-right: 301px;
+  position: relative;
+}
+.logo {
+  position: relative;
+}
+.logoTwo {
+  position: absolute;
+  right: -2px;
+  top: 0;
+}
+.search {
+  position: relative;
+}
+.group9 {
+  position: absolute;
+  left: 464px;
+  top: 13px;
+}
+.group8 {
+  border-radius: 2px;
+  // padding: 0 359px 0 13px;
+  // position: relative;
+  border: 2px solid $white;
+}
+.searchHere {
+  height: 48px;
+  width: 511px;
+  color: $white;
+  background-color: $black-2;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.09px;
+  @include roboto-18-bold;
+}
+.flexWrapperThree {
+  background-color: $dark-slate-gray;
+  border-radius: 5px;
+  padding: 20px 20px 40.65px 21.73px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.flexWrapperFive {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  &:not(:last-of-type) {
+    margin-right: 19.82px;
+  }
+}
+.num211ResultsFound {
+  height: 46px;
+  width: 167px;
+  color: $white;
+  display: flex;
+  align-items: center;
+  margin-bottom: 23.92px;
+  margin-left: 0.27px;
+  @include roboto-18-bold;
+}
+.toyStory {
+  margin-bottom: 30.38px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rectangle1 {
+  margin-bottom: 10.11px;
+}
+.toyStory1995 {
+  height: 61px;
+  width: 253px;
+  color: $white;
+  display: flex;
+  @include roboto-16-bold;
+}
+.flexWrapperSix {
+  margin-right: 21.49px;
+  padding: 69.92px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.relativeWrapperTwo {
+  margin-bottom: 30.38px;
+  position: relative;
+}
+.empire {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+.rectangle3 {
+  margin-bottom: 10.11px;
+  margin-left: 1.67px;
+}
+.touchApp24px {
+  position: absolute;
+  right: -11.21px;
+  bottom: 17.67px;
+}
+.flexWrapperSeven {
+  margin-right: 21.49px;
+  padding: 69.92px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.flexWrapperNine {
+  margin-bottom: 25.92px;
+  padding: 0 0 0 33.45px;
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+.page1Of9 {
+  height: 44px;
+  width: 92px;
+  color: $white;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  @include roboto-18-bold;
+}
+.arrows {
+  display: flex;
+  align-items: flex-start;
+}
+.flexWrapperTwo {
+  border-radius: 2px;
+  padding: 9px 12px 9px 13px;
+  display: flex;
+  align-items: center;
+  border: 2px solid $white;
+  &:not(:last-of-type) {
+    margin-right: 20px;
+  }
+}
